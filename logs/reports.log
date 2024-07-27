@@ -1,0 +1,25 @@
+27.07.2024 20:41:15 - Logging - views.py - main_page - INFO - Старт
+27.07.2024 20:41:15 - Logging - views.py - main_page - INFO - Преобразование файла Excel в список словарей
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Получение приветствия
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Получение информации о карте
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Получение лучших сделок
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Получение валютных_курсов
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Создание словаря словарей
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Запись информации в json-файл
+27.07.2024 20:41:16 - Logging - views.py - main_page - INFO - Стоп
+27.07.2024 20:41:17 - Logging - services.py - investment_bank - INFO - Старт
+27.07.2024 20:41:17 - Logging - services.py - investment_bank - INFO - Создание списка отфильтрованных транзакций
+27.07.2024 20:41:17 - Logging - services.py - investment_bank - INFO - Фильтрация транзакций по дате и занесение их суммы в список отфильтрованных транзакций
+27.07.2024 20:41:17 - Logging - services.py - investment_bank - INFO - Расчет оставшейся суммы для инвестиционного банка
+27.07.2024 20:41:17 - Logging - services.py - investment_bank - INFO - Создание json-файла с суммой для инвестиционного банка
+27.07.2024 20:41:17 - Logging - services.py - investment_bank - INFO - Стоп
+27.07.2024 20:41:17 - Logging - reports.py - spending_by_category - INFO - Старт
+27.07.2024 20:41:17 - Logging - reports.py - spending_by_category - INFO - Создание отфильтрованного списка по дате за последние 3 месяца с помощью другой функции
+27.07.2024 20:41:17 - Logging - reports.py - filtering_by_date - INFO - Преобразование DF в словарь
+27.07.2024 20:41:17 - Logging - reports.py - filtering_by_date - INFO - Период создания в течение 90 дней
+27.07.2024 20:41:17 - Logging - reports.py - filtering_by_date - INFO - Фильтрация операций в течение 3 месяцев
+27.07.2024 20:41:17 - Logging - reports.py - filtering_by_date - INFO - Преобразование данных обратно в DF
+27.07.2024 20:41:17 - Logging - reports.py - filtering_by_date - INFO - Возврат DF к основной функции
+27.07.2024 20:41:17 - Logging - reports.py - spending_by_category - INFO - Фильтрация транзакций по категориям
+27.07.2024 20:41:17 - Logging - reports.py - spending_by_category - INFO - Возвращение отфильтрованного DF
+27.07.2024 20:41:17 - Logging - reports.py - spending_by_category - INFO - Стоп
